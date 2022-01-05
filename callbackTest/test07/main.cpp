@@ -1,12 +1,12 @@
 /*
     网络库
-    以boost::function作为桥梁，NetServer class对其使用者没有任何类型上的现在，
+    以boost::function作为桥梁，NetServer class对其使用者没有任何类型上的限制，
     只对成员函数的参数和返回类型有限制。使用者EchoService也完全不知道NetServer的
     存在，只要在main()里把两者装配到一起，程序就跑起来了
 */
 
 //这里模仿一个echo服务器的交互模式，在NetServer::run()中直接写了收到的消息，conn用字符串代替，
-//运行可以看到如下：
+//运行可以看到如下输出：
 // Connection  from :conn
 // Received Message from: conn, content is: hello
 // send Message to :conn, content is: hello

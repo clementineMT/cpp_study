@@ -1,6 +1,10 @@
-# cpp_study
-##### callback
+## cpp_study
+#### callback
 
-这是在学习《muduo》时，不了解回调含义所创建的各种test
-
-尤其是test07中简化了书上的代码
+1. 简单回调
+2. 静态成员函数
+3. 企鹅与鸭子的装配
+4. lambda
+5. placeholders的使用
+6. 线程
+7. NetServer与EchoService
